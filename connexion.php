@@ -14,14 +14,17 @@ if(isset($_POST['submit'])) {
         echo "Login réussi!";
         header("location:articles_list.php");
     }else{
-        echo "Authentification n'a pas réussi";
+        echo "L'authentification n'a pas réussi";
     }
 }
-   
-
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<?php include 'head.php'; ?>
+<body>
+<?php include 'navbar.php'; ?>
 <section style="padding:150px"> <!--formulaire authentification des admins-->
-    <form action="connexion.php" method="post" style="border:1px solid black;padding:5px">
+    <form action="connexion.php" method="post" style="border:1px solid black; padding:5px">
         <h2>Formulaire d'authentification</h2>
         <label for="name">Pseudo</label>
         <input type="text" name="name" id="name" placeholder="Entrez votre pseudo">
@@ -32,3 +35,4 @@ if(isset($_POST['submit'])) {
         <button class="button" type="submit" name="submit">Valider</button>
     </form>
 </section>
+<?php include 'footer.php'; ?>

@@ -15,9 +15,6 @@ nav {
     z-index: 1;
 }
 
-/* body {
-    background-image: url("assets/28648.jpg");
-} */
 
 .nav_txt a {
     color:#dd2525;
@@ -138,7 +135,7 @@ h2 {
 }
 
 .button {
-    background-color: #dd2525;
+    /* background-color: #dd2525; */
     color: white;
     border-radius: 10px;
     padding: 0.3rem;
@@ -169,7 +166,7 @@ legend h4 {
 }
 
 .admin {
-    background-color: rgba(221, 37, 37, 0.356);
+    background-color: rgba(238, 13, 13, 0.356);
     color: white;
     
 }
@@ -182,4 +179,8 @@ legend h4 {
 h3.article {
     font-family: 'Amatic SC', cursive;
     text-align: left;
+}
+
+.p-footer {
+    display: inline;
 }

@@ -37,10 +37,10 @@ $discog = nl2br($donnees['discography']);
     </div>
     <div class="container row centered">
         <div class="col-6">
-            <a href="modify.php?id=<?php echo $donnees['id'];?>" class="btn btn-danger button">Edition</a>
+            <a href="modify.php?id=<?php echo $donnees['id'];?>" class="btn btn-danger button is-hidden">Edition</a>
         </div>
         <div class="col-6">
-            <a href="articles_list.php" class="btn btn-danger button">voir la liste</a>
+            <a href="articles_list.php" class="btn btn-danger button is-hidden">voir la liste</a>
         </div>
     </div>
     
