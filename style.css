@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: rgba(23, 217, 136, 0.8);
+    padding: 1rem;
+    position: fixed;
+    font-family: 'Amatic SC', cursive;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* body {
+    background-image: url("assets/28648.jpg");
+} */
+
+.nav_txt a {
+    color:#dd2525;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+/* .sr-only {
+    position: absolute;
+    left: -9999px;
+    width: 0;
+    height: 0;
+} */
+
+
+.fixed-bg {
+    background-image: url("assets/Slits-AntonCorbijn1.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    top:0px;
+    background-repeat: no-repeat;
+    
+  }
+
+img.header {
+    top: 0;
+    left: 0;
+    max-width: 100%; 
+    min-height: 300px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #dd2525;
+    text-align: center;
+}
+
+.white-bg {
+    background: rgba(255, 255, 255, 0.329);
+    /* padding: 2rem;*/
+    margin-top: 2rem; 
+    line-height: 2.5rem;
+}
+
+.cards-bg {
+    background: black;
+    padding-left: 2rem;
+}
+
+
+.header h1 {
+    position:relative;
+    text-align: right;
+    top: 400px;
+    right: 0;
+    padding-right: 100px;
+    font-family: 'Amatic SC', cursive;
+    color:#dd2525;
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    background-image: url("https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-color: rgb(0, 0, 0, 0.9);  */
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-art {
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer {
+    /* background: rgba(23, 217, 136, 0.8); */
+    position: sticky;
+    bottom: 0;
+    font-size: smaller;
+    color:black;
+    text-align: end;
+    height: 60px;
+    padding-top: 0.1rem 0;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.form-margin {
+    
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 10px;
+    border-style: none;
+    padding: 1rem;
+    color:black;
+    color: white;
+    margin-top: 35px;
+}
+
+.title {
+    margin:20px 0;
+}
+
+.button {
+    background-color: #dd2525;
+    color: white;
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.adaptatifTextarea {
+     min-height:40px;
+     max-height:100px;
+     min-width: 300px;
+}
+
+.row
+{
+    margin-top: 2rem;
+}
+
+legend h4 {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.admin {
+    background-color: rgba(221, 37, 37, 0.356);
+    color: white;
+    
+}
+
+.is-hidden{
+    display: none;
+  }
+  
+
+h3.article {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+}
