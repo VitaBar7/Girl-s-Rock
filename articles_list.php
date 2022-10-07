@@ -1,10 +1,6 @@
-<?php include 'data.php'; ?>
-<!DOCTYPE html>
-<?php
+<?php 
+include 'data.php';
 include 'head.php';
-?>
-<body>
-<?php
 include 'navbar.php';
 ?>
     <div class="container">

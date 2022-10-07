@@ -1,8 +1,8 @@
 <?php
 session_start();
 include('data.php');
-include('head.php');
-//var_dump($_POST);
+
+var_dump($_POST);
 if(isset($_POST['submit'])) { 
     $pseudo = $_POST['name'];
     $email = $_POST["email"];
@@ -18,10 +18,8 @@ if(isset($_POST['submit'])) {
     }
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
+
 <?php include 'head.php'; ?>
-<body>
 <?php include 'navbar.php'; ?>
 <section style="padding:150px"> <!--formulaire authentification des admins-->
     <form action="connexion.php" method="post" style="border:1px solid black; padding:5px">
@@ -32,7 +30,6 @@ if(isset($_POST['submit'])) {
         <input type="email" name="email" id="email" placeholder="Entrez votre email">
         <label for="password">Mot de passe</label>
         <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
-        <button class="button" type="submit" name="submit">Valider</button>
+        <button class="button btn-danger" type="submit" name="submit">Valider</button>
     </form>
 </section>
-<?php include 'footer.php'; ?>

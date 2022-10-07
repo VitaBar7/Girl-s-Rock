@@ -12,12 +12,9 @@ $donnees = $reponse->fetch();
 $text = nl2br($donnees['bio']);
 $discog = nl2br($donnees['discography']);
    
-?>
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'head.php'; ?>
-<body>
-<?php include 'navbar.php'; ?>
+include 'head.php';
+include 'navbar.php'; ?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">

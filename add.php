@@ -15,13 +15,8 @@ include 'data.php';
 
     // header("location: index.php");
     }
-?>
-<!DOCTYPE html>
-<?php
+
 include 'head.php';
-?>
-<body>
-<?php
 include 'navbar.php';
 ?>
     <main class="container">
