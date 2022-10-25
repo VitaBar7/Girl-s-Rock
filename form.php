@@ -10,7 +10,7 @@
         
             <form class="form-margin" action="add.php" method="post" id="myForm">
                 <fieldset class="border rounded p-3">
-                    <legend><h4 class="fs-3">Merci de remplir tous les champs<h4></legend><br/>
+                    <legend><h3>Merci de remplir tous les champs<h3></legend><br/>
                     <div>
                         <label for="band_name">Bande</label><br/>
                         <input type="text" id="band_name" name="band_name" required>  

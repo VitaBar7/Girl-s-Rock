@@ -80,7 +80,6 @@ h2 {
 .container-fluid {
     max-width: 1200px;
     background-image: url("https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    /* background-color: rgb(0, 0, 0, 0.9);  */
     border-radius: 10px;
     margin: 0 auto;
     padding: 1rem;
@@ -105,15 +104,18 @@ h2 {
 }
 
 
-.form-margin {
-    
-    background-color: rgba(0, 0, 0, 0.836);
+.form-margin { 
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     border-style: none;
     padding: 1rem;
-    color:black;
     color: white;
     margin-top: 35px;
+}
+
+
+legend {
+    font-family: 'Amatic SC', cursive;
 }
 
 .title {
@@ -131,6 +133,10 @@ h2 {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+.save {
+    margin-top: 10px;
 }
 
 .adaptatifTextarea {
@@ -156,6 +162,7 @@ legend h4 {
     color: white;
     margin: 20px;
     justify-content: end;
+    margin-left: 200px;
     
 }
 
@@ -198,7 +205,23 @@ form {
 }
 
 input {
-    padding:30px;
+    width: 250px;
+    margin:10px;
+    border-radius: 5px;
+}
+
+textarea {
+    margin:10px;
+    border-radius: 5px;
+}
+
+form#connect {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+form#connect label {
+    color: #fff;
 }
 
 .p-footer a {

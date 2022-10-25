@@ -22,20 +22,20 @@ if(isset($_POST['submit'])) {
 <?php include 'head.php'; ?>
 <?php include 'navbar.php'; ?>
 <section style="padding:150px"> <!--formulaire authentification des admins-->
-    <form action="connexion.php" method="post">
+    <form id="connect" action="connexion.php" method="post">
         <h2>Formulaire d'authentification</h2>
         <div>
-            <label for="name">Pseudo</label>
+            <!-- <label for="name">Pseudo</label> -->
             <input type="text" name="name" id="name" placeholder="Entrez votre pseudo">
         </div>
         <div>
-            <label for="email">Email</label>
+            <!-- <label for="email">Email</label> -->
             <input type="email" name="email" id="email" placeholder="Entrez votre email">
         </div>
         <div>
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+            <!-- <label for="password">Mot de passe</label> -->
+            <input type="password" name="password" id="password" placeholder="Entrez le mot de passe">
         </div>
-        <button class="button btn-danger" type="submit" name="submit">Valider</button>
+        <button class="button btn-danger save" type="submit" name="submit">Valider</button>
     </form>
 </section>
