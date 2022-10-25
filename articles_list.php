@@ -2,6 +2,9 @@
 include 'data.php';
 include 'head.php';
 include 'navbar.php';
+
+//ici verifier la connexion: if isset($_SESSION) avant afficher la page gestion articles
+
 ?>
     <div class="container">
         <?php

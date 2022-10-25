@@ -5,11 +5,9 @@ include 'data.php';
 $reponse = $bdd->query("SELECT * FROM girls_rock");
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'head.php'; ?>
-<body>
-<?php include 'navbar.php'; ?>
+<?php 
+include 'head.php'; 
+include 'navbar.php'; ?>
 
 <div class="header fixed-bg">
     <h1 class="ml-3">Girls Rock !</h1>
@@ -40,5 +38,3 @@ $reponse = $bdd->query("SELECT * FROM girls_rock");
 
     
 <?php include 'footer.php'; ?>    
-</body>
-</html>

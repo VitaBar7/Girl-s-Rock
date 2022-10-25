@@ -2,7 +2,7 @@
 session_start();
 include('data.php');
 
-var_dump($_POST);
+                                                                                                                                                                                                                                                          
 if(isset($_POST['submit'])) { 
     $pseudo = $_POST['name'];
     $email = $_POST["email"];
@@ -22,14 +22,20 @@ if(isset($_POST['submit'])) {
 <?php include 'head.php'; ?>
 <?php include 'navbar.php'; ?>
 <section style="padding:150px"> <!--formulaire authentification des admins-->
-    <form action="connexion.php" method="post" style="border:1px solid black; padding:5px">
+    <form action="connexion.php" method="post">
         <h2>Formulaire d'authentification</h2>
-        <label for="name">Pseudo</label>
-        <input type="text" name="name" id="name" placeholder="Entrez votre pseudo">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Entrez votre email">
-        <label for="password">Mot de passe</label>
-        <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+        <div>
+            <label for="name">Pseudo</label>
+            <input type="text" name="name" id="name" placeholder="Entrez votre pseudo">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Entrez votre email">
+        </div>
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+        </div>
         <button class="button btn-danger" type="submit" name="submit">Valider</button>
     </form>
 </section>
